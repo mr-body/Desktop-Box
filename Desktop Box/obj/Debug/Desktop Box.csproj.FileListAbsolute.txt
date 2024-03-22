@@ -1,0 +1,82 @@
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/bin/Debug/Desktop Box.exe.config
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/bin/Debug/Desktop Box.exe
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/bin/Debug/Desktop Box.pdb
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/bin/Debug/Guna.UI.dll
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.FormMain.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Properties.Resources.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop Box.csproj.GenerateResource.Cache
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop Box.exe
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop Box.pdb
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/bin/Debug/Bunifu_UI_v1.52.dll
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/bin/Debug/Guna.UI2.dll
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/bin/Debug/Network.dll
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.messages.internet_erro.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.messages.tadabase_erro.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Relatorio.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Vendas.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.show_vendas.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.concluir.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Precario.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.nav_header.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Login.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.show_show_ren.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.addStock.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.edit_qtd.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.concluir.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.rem.edit.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.home.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.contas.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.Main.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.trocos.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.Despesas.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.produto.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.notification.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.Funcionarios.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop Box.csprojResolveAssemblyReference.cache
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.escolha.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.create.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.re_Rela.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.reconta.resources
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/RdlCompile.cache
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/RdlCompile.compiled
+C:/Users/Walter/Desktop/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Report.vendas.resources
+C:/Users/Mateus Adriano/Documents/Documentos/Programacão/Desktop/Csharp/Office/Desktop Box/Desktop Box/bin/Debug/Desktop Box.exe.config
+C:/Users/Mateus Adriano/Documents/Documentos/Programacão/Desktop/Csharp/Office/Desktop Box/Desktop Box/obj/Debug/Desktop Box.exe
+C:/Users/Mateus Adriano/Documents/Documentos/Programacão/Desktop/Csharp/Office/Desktop Box/Desktop Box/obj/Debug/Desktop Box.pdb
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/bin/Debug/Desktop Box.exe.config
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop Box.exe
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop Box.pdb
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop Box.csprojResolveAssemblyReference.cache
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.Funcionarios.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.nav_header.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.notification.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Controls.produto.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.escolha.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.FormMain.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.create.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.addStock.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.concluir.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.concluir.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.edit_qtd.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.rem.edit.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.rem.show_show_ren.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Dialogos.show_vendas.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Precario.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.reconta.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Relatorio.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.re_Rela.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Formularios.Vendas.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Login.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.messages.internet_erro.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.messages.tadabase_erro.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Properties.Resources.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.Report.vendas.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.contas.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.Despesas.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.home.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.Main.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop_Box.users.trocos.resources
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/Desktop Box.csproj.GenerateResource.Cache
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/RdlCompile.cache
+C:/Users/User/3D Objects/Desktop Box/Desktop Box/obj/Debug/RdlCompile.compiled
+/home/kali/Netools/Desktop Box/Desktop Box/obj/Debug/Desktop Box.exe

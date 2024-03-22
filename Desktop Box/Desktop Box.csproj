@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83EE30D4-D12B-4190-AF2A-C927249138B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Desktop_Box</RootNamespace>
+    <AssemblyName>Desktop Box</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Downloads\Pacotes\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\Downloads\Pacotes\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\Downloads\Pacotes\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Network">
+      <HintPath>..\..\..\Music\Network.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\barcode.cs" />
+    <Compile Include="Classes\conn.cs" />
+    <Compile Include="Classes\details.cs" />
+    <Compile Include="Classes\moduleExcel.cs" />
+    <Compile Include="Classes\Ticket.cs" />
+    <Compile Include="Controls\Funcionarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Funcionarios.Designer.cs">
+      <DependentUpon>Funcionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\nav-header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\nav-header.Designer.cs">
+      <DependentUpon>nav-header.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\notification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\notification.Designer.cs">
+      <DependentUpon>notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\produto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\produto.Designer.cs">
+      <DependentUpon>produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="escolha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="escolha.Designer.cs">
+      <DependentUpon>escolha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\create.Designer.cs">
+      <DependentUpon>create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\addStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\addStock.Designer.cs">
+      <DependentUpon>addStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\concluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\concluir.Designer.cs">
+      <DependentUpon>concluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\concluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\concluir.Designer.cs">
+      <DependentUpon>concluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\edit_qtd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\edit_qtd.Designer.cs">
+      <DependentUpon>edit_qtd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\rem\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\rem\edit.Designer.cs">
+      <DependentUpon>edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\show_show_ren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\rem\show_show_ren.Designer.cs">
+      <DependentUpon>show_show_ren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\show_vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Dialogos\show_vendas.Designer.cs">
+      <DependentUpon>show_vendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Mensagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Mensagens.Designer.cs">
+      <DependentUpon>Mensagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Precario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Precario.Designer.cs">
+      <DependentUpon>Precario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\reconta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\reconta.Designer.cs">
+      <DependentUpon>reconta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Relatorio.Designer.cs">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\re_Rela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\re_Rela.Designer.cs">
+      <DependentUpon>re_Rela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Vendas.Designer.cs">
+      <DependentUpon>Vendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messages\internet_erro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messages\internet_erro.Designer.cs">
+      <DependentUpon>internet_erro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messages\tadabase_erro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messages\tadabase_erro.Designer.cs">
+      <DependentUpon>tadabase_erro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\vendas.Designer.cs">
+      <DependentUpon>vendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="users\contas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users\contas.Designer.cs">
+      <DependentUpon>contas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="users\Despesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users\Despesas.Designer.cs">
+      <DependentUpon>Despesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="users\home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users\home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="users\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="users\trocos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users\trocos.Designer.cs">
+      <DependentUpon>trocos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\Funcionarios.resx">
+      <DependentUpon>Funcionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\nav-header.resx">
+      <DependentUpon>nav-header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\notification.resx">
+      <DependentUpon>notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\produto.resx">
+      <DependentUpon>produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="escolha.resx">
+      <DependentUpon>escolha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\create.resx">
+      <DependentUpon>create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Dialogos\addStock.resx">
+      <DependentUpon>addStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Dialogos\concluir.resx">
+      <DependentUpon>concluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Dialogos\rem\concluir.resx">
+      <DependentUpon>concluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Dialogos\rem\edit_qtd.resx">
+      <DependentUpon>edit_qtd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Dialogos\rem\rem\edit.resx">
+      <DependentUpon>edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Dialogos\rem\show_show_ren.resx">
+      <DependentUpon>show_show_ren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Dialogos\show_vendas.resx">
+      <DependentUpon>show_vendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Precario.resx">
+      <DependentUpon>Precario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\reconta.resx">
+      <DependentUpon>reconta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Relatorio.resx">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\re_Rela.resx">
+      <DependentUpon>re_Rela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Vendas.resx">
+      <DependentUpon>Vendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages\internet_erro.resx">
+      <DependentUpon>internet_erro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages\tadabase_erro.resx">
+      <DependentUpon>tadabase_erro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report\Report1.rdlc" />
+    <EmbeddedResource Include="Report\vendas.resx">
+      <DependentUpon>vendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users\contas.resx">
+      <DependentUpon>contas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users\Despesas.resx">
+      <DependentUpon>Despesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users\home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users\trocos.resx">
+      <DependentUpon>trocos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
